@@ -23,6 +23,7 @@ dye.dyes = {
 	{"red",        "Red"},
 	{"magenta",    "Magenta"},
 	{"pink",       "Pink"},
+	{"light_blue", "Light Blue"},
 }
 
 -- Define items
@@ -94,6 +95,7 @@ local dye_recipes = {
 	{"white", "red", "pink"},
 	{"white", "dark_grey", "grey"},
 	{"white", "dark_green", "green"},
+	{"white", "blue", "light_blue"}
 }
 
 for _, mix in pairs(dye_recipes) do
